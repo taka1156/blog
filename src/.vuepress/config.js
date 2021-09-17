@@ -39,6 +39,34 @@ module.exports = {
       perPage: 5,
     },
     comments: false,
+    personalInfo: {
+      // Nickname
+      nickname: 'Tech blog',
+
+      // Introduction of yourself (HTML supported)
+      description: 'VuePress blog',
+
+
+      // Your avatar image
+      // Set to external link
+      avatar: '/writers/m-logo.png',
+
+      // Accounts of SNS
+      sns: {
+        // Github account and link
+        github: {
+          account: '',
+          link: './writers/',
+        },
+
+        // Twitter account and link
+        twitter: {
+          account: '',
+          link: './writers/',
+        },
+      },
+    },
+
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
      */
