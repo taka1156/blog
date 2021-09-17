@@ -10,10 +10,10 @@
         />
         <div class="sns-icons">
           <a :href="writer.github" class="sns-icons__icon">
-            <img :src="$withBase('/site/github.png')" alt="github" />
+           <i class="fab fa-github"></i>
           </a>
           <a :href="writer.twitter" class="sns-icons__icon">
-            <img :src="$withBase('/site/twitter.png')" alt="twitter" />
+            <i class="fab fa-twitter"></i>
           </a>
         </div>
       </div>
@@ -69,6 +69,10 @@
     width: 65%;
     padding: 10px auto;
     border-left: 1px solid gray;
+  }
+
+  .fab {
+    font-size: 50px;
   }
 
   .sns-icons__icon {
